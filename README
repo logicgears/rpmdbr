@@ -1,0 +1,4 @@
+This is a Utility Command to remove a package only from the RPM database but not from the system
+
+Compile using "gcc -I/usr/include/rpm -o rpmdbr rpmutil.c -lrpm -lrpmdb -lrpmio" 
+
